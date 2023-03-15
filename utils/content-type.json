@@ -1,0 +1,52 @@
+[
+  {
+    "key": "pdf",
+    "extension": ".pdf",
+    "mimeType": "application/pdf"
+  },
+  {
+    "key": "doc",
+    "extension": ".doc",
+    "mimeType": "application/msword"
+  },
+  {
+    "key": "docx",
+    "extension": ".docx",
+    "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+  },
+  {
+    "key": "png",
+    "extension": ".png",
+    "mimeType": "image/png"
+  },
+  {
+     "key": "jpg",
+     "extension": ".jpg",
+     "mimeType": "image/jpeg"
+  },
+  {
+     "key": "jpeg",
+     "extension": ".jpeg",
+     "mimeType": "image/jpeg"
+  },
+  {
+    "key": "ppt",
+    "extension": ".ppt",
+    "mimeType": "application/vnd.ms-powerpoint"
+  },
+  {
+    "key": "pptx",
+    "extension": ".pptx",
+    "mimeType": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+  },
+  {
+    "key": "xls",
+    "extension": ".xls",
+    "mimeType": "application/vnd.ms-excel"
+  },
+  {
+    "key": "xlsx",
+    "extension": ".xlsx",
+    "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+  }
+]
