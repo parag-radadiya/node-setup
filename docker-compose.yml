@@ -1,0 +1,31 @@
+#version: '3.7'
+#
+#services:
+#  redis-timeseries:
+#    image: redis/redis-stack-server:latest
+#    container_name: kobat-redis-db
+##    environment:
+##      - REDIS_ARGS---requirepass uFdWDuugFbqWujj
+#    ports:
+#      - '6379:6379'
+#    volumes:
+#      - redis-timeseries-data:/data
+#
+#volumes:
+#  - redis-timeseries-data
+
+
+
+version: '3.8'
+services:
+  cache:
+    image: redis:6.2-alpine
+    restart: always
+    ports:
+      - '6379:6379'
+#    command: redis-server --save 20 1 --loglevel warning --requirepass eYVX7EwVmmxKPCDmwMtyKVge8oLd2t81
+    volumes:
+      - cache:/data
+volumes:
+  cache:
+    driver: local

@@ -13,3 +13,19 @@ services:
 
 volumes:
   mongodata:
+
+
+version: 3.7
+services:
+redis-timeseries:
+image: redis/redis-stack-server:latest
+container_name: kobat-redis-db
+environment:
+  - REDIS_ARGS---requirepass uFdWDuugFbqWujj
+ports:
+  -16379:6379'
+volumes:
+  - redis-timeseries-data:/data
+  volumes
+  :
+  redis-timeseries-data
