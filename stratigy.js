@@ -39,7 +39,7 @@ function buyOnDip(candleData, options, symbol) {
   let lossPerTrade = 0;
   let startTrade = 0;
   // const candleLength = 0;
-
+  // git push --set-upstream origin rd_on_kite_connect
   candleData.filter((data, index, candle) => {
     const currentValue = data.close;
     if (!tradeGoingOn) {
